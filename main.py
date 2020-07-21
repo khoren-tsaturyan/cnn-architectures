@@ -221,7 +221,7 @@ def test(model,test_set,test_size,criterion,device):
 def main():
     parser = argparse.ArgumentParser(description='PyTorch MNIST Example')
     parser.add_argument('--model-name', type=str, default='VGG13',
-                        help='name of the models')
+                        help='model to run')
     parser.add_argument('--batch-size', type=int, default=32, metavar='N',
                         help='input batch size for training (default: 32)')
     parser.add_argument('--epochs', type=int, default=100, metavar='N',
@@ -255,8 +255,6 @@ def main():
 
     test_loss,test_acc = test(model,dataloaders['test'],dataset_sizes['test'],criterion,device)
     print(f'Test Loss {test_loss}, Accuracy{test_acc}')
-    
-   
 
 
 if __name__ == '__main__':
