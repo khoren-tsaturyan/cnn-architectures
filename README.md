@@ -7,7 +7,7 @@ Run the following command
 
 ### Parameters
 
-``--model-name``` - model to run (default: googlenet)
+``--model-name`` - model to run (default: googlenet)
 
 So far available options are:
 
