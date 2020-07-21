@@ -220,7 +220,7 @@ def test(model,test_set,test_size,criterion,device):
 
 def main():
     parser = argparse.ArgumentParser(description='PyTorch MNIST Example')
-    parser.add_argument('--model-name', type=str, default='VGG13',
+    parser.add_argument('--model-name', type=str, default='googlenet',
                         help='model to run')
     parser.add_argument('--batch-size', type=int, default=32, metavar='N',
                         help='input batch size for training (default: 32)')
