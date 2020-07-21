@@ -8,7 +8,9 @@ Run the following command
 ### Parameters
 
 ``--model-name``` - model to run (default: googlenet)
+
 So far available options are:
+
   alexnet, vgg11, vgg13, vgg16, vgg19, resnet18, resnet34, resnet50, resnet101, resnet152, wideresnet, googlenet, xception 
 
 ```--batch-size``` - input batch size for training (default: 32)
