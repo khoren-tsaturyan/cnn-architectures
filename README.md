@@ -25,7 +25,7 @@ So far available options are:
 
 ```--save-mode``` - for saving the current model
 
-###Example
+### Example
 
 ```python main.py --model-name=xception --batch-size=64 --epochs=200 --save-model```
 
